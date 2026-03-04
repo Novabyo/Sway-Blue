@@ -1,0 +1,46 @@
+[window]
+opacity = 0.8
+
+[colors.bright]
+black = "#11161D"
+blue = "#89B4FA"
+cyan = "#89B4FA"
+green = "#89B4FA"
+magenta = "#A6C8FF"
+red = "#6CA0DC"
+white = "#FFFFFF"
+yellow = "#A6C8FF"
+
+[colors.cursor]
+cursor = "#89B4FA"
+text = "#0B0F14"
+
+[colors.normal]
+black = "#0B0F14"
+blue = "#6CA0DC"
+cyan = "#5FD1C4"
+green = "#5FD1C4"
+magenta = "#89B4FA"
+red = "#4C6E91"
+white = "#E6EDF3"
+yellow = "#7FA1C3"
+
+[colors.primary]
+background = "#0B0F14"
+foreground = "#E6EDF3"
+
+[colors.selection]
+background = "#6CA0DC"
+text = "#0B0F14"
+
+[font]
+size = 11.0
+[font.normal]
+family = "MapleMono"
+style = "Regular"
+
+[terminal]
+
+[terminal.shell]
+program = "/usr/bin/bash"
+args = ["-i", "-c", "pfetch; exec /usr/bin/bash"]
